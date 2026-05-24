@@ -1,0 +1,182 @@
+{
+  "installedMods": [
+    {
+      "modFolderName": "MetalFarmTweak",
+      "installedAtUtc": "2026-05-24T17:39:03.4695802Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64\\ue4ss\\Mods\\MetalFarmTweak"
+      ]
+    },
+    {
+      "modFolderName": "No Edges",
+      "installedAtUtc": "2026-05-24T17:39:03.4732362Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\NoEdgesSubnautica2-Windows.pak",
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\NoEdgesSubnautica2-Windows.ucas",
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\NoEdgesSubnautica2-Windows.utoc"
+      ]
+    },
+    {
+      "modFolderName": "No Scuba Mask",
+      "installedAtUtc": "2026-05-24T17:39:03.4777956Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\0000_NoScubeMask_P.pak",
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\0000_NoScubeMask_P.ucas",
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\0000_NoScubeMask_P.utoc"
+      ]
+    },
+    {
+      "modFolderName": "Remove Leviathan Music",
+      "installedAtUtc": "2026-05-24T17:39:03.7255484Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64\\Mods\\Remove Leviathan Music"
+      ]
+    },
+    {
+      "modFolderName": "Scanner Speed Mod",
+      "installedAtUtc": "2026-05-24T17:39:03.7255484Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64\\ue4ss\\Mods\\Scanner Speed Mod"
+      ]
+    },
+    {
+      "modFolderName": "SN1 Speed Restore",
+      "installedAtUtc": "2026-05-24T17:39:03.7420485Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64\\ue4ss\\Mods\\SN1 Speed Restore"
+      ]
+    },
+    {
+      "modFolderName": "SN2 Mod Settings",
+      "installedAtUtc": "2026-05-24T17:39:03.7420485Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64\\ue4ss\\Mods\\SN2 Mod Settings"
+      ]
+    },
+    {
+      "modFolderName": "SN2 SML",
+      "installedAtUtc": "2026-05-24T17:39:03.7462166Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\SML.pak",
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\SML.ucas",
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Content\\Paks\\~mods\\SML.utoc"
+      ]
+    },
+    {
+      "modFolderName": "UE4SS",
+      "installedAtUtc": "2026-05-24T17:39:03.7664558Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64"
+      ]
+    },
+    {
+      "modFolderName": "Console Commands",
+      "installedAtUtc": "2026-05-24T18:47:59.9016976Z",
+      "deployedPaths": [
+        "F:\\SteamLibrary\\steamapps\\common\\Subnautica2\\Subnautica2\\Binaries\\Win64\\Mods\\ue4ss (2)"
+      ]
+    }
+  ],
+  "modNotes": [
+    {
+      "modFolderName": "UE4SS",
+      "description": "UE4SS"
+    },
+    {
+      "modFolderName": "Remove Leviathan Music",
+      "description": "Removes Creepy Music When Near The Leviathans"
+    },
+    {
+      "modFolderName": "No Scuba Mask",
+      "description": "Removes Scuba Mask Overlay"
+    },
+    {
+      "modFolderName": "No Edges",
+      "description": "Removes Obnoxious World Edges"
+    },
+    {
+      "modFolderName": "SN1 Speed Restore",
+      "description": "Speeds Up Swimming And Vehicles to Be Closer To The Speed From Subnautica 1"
+    },
+    {
+      "modFolderName": "Scanner Speed Mod",
+      "description": "Doubles Scanning Speed.\r\nConfigurable"
+    },
+    {
+      "modFolderName": "MetalFarmTweak",
+      "description": "Speeds Up Metal Farm Speed. Configurable"
+    },
+    {
+      "modFolderName": "SN2 SML",
+      "description": "Required By No Edges"
+    },
+    {
+      "modFolderName": "SN2 Mod Settings",
+      "description": "Library Mod"
+    },
+    {
+      "modFolderName": "Console Commands",
+      "description": "Activate Console Menu With F2"
+    }
+  ],
+  "modCategories": [
+    {
+      "modFolderName": "UE4SS",
+      "category": "MAIN"
+    },
+    {
+      "modFolderName": "SN2 Mod Settings",
+      "category": "MAIN"
+    },
+    {
+      "modFolderName": "MetalFarmTweak",
+      "category": "GAMEPLAY"
+    },
+    {
+      "modFolderName": "SN2 SML",
+      "category": "Main"
+    },
+    {
+      "modFolderName": "SN1 Speed Restore",
+      "category": "GAMEPLAY"
+    },
+    {
+      "modFolderName": "No Edges",
+      "category": "VISUAL"
+    },
+    {
+      "modFolderName": "No Scuba Mask",
+      "category": "VISUAL"
+    },
+    {
+      "modFolderName": "Scanner Speed Mod",
+      "category": "GAMEPLAY"
+    },
+    {
+      "modFolderName": "Remove Leviathan Music",
+      "category": "VISUAL"
+    },
+    {
+      "modFolderName": "Console Commands",
+      "category": "OTHER"
+    }
+  ],
+  "modLinks": [
+    {
+      "modFolderName": "UE4SS",
+      "url": "https://www.nexusmods.com/subnautica2/mods/36"
+    }
+  ],
+  "pinnedCategories": [
+    {
+      "category": "Main",
+      "pinned": true
+    }
+  ],
+  "pinnedMods": [
+    {
+      "modFolderName": "UE4SS",
+      "pinned": true
+    }
+  ]
+}
