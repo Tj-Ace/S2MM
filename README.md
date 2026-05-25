@@ -1,76 +1,33 @@
-# S2MM - Subnautica 2 Mod Manager
+# S2MM (Subnautica 2 Mod Manager)
 
-S2MM is a standalone Windows mod manager for **Subnautica 2** focused on easy drag-and-drop install, category organization, and one-click deployment.
+S2MM is a standalone Windows mod manager for **Subnautica 2**.
 
-## What It Does
+## Key Features
+- Drag-and-drop install for `.zip`, `.7z`, and folder mods
+- Auto-detect Subnautica 2 install path
+- One-click apply/purge workflow
+- UE4SS + SN2 Mod Settings category handling
+- Nexus metadata integration (title/author/icon/version/description where available)
+- Right-click tools: pin, rename, remove, set category, link to Nexus URL
+- NXM protocol support (`Add to Mod Manager` links)
+- Full session logging to `_filestructure/logs`
 
-- Drag-and-drop install for:
-  - `.zip`
-  - `.7z`
-  - mod folders
-- Auto-detects Subnautica 2 install path and stores it in config
-- Auto-deploys installed mods to game when game path is detected
-- Distinguishes deployment types:
-  - `.pak/.utoc/.ucas` -> `Content\\Paks\\~mods`
-  - UE4SS/folder mods -> `Binaries\\Win64\\ue4ss\\Mods` or relevant mod folder locations
-- Pulls Nexus metadata (when available) using your API key
-- Logs all actions to `_filestructure\\logs`
-- Category management with grouping + pinning
-- Right-click actions for mod/category management
+## Quick Start
+1. Run `S2MM.exe`
+2. Set/confirm Subnautica path if prompted
+3. Drop mods into the left panel
+4. Click **Apply Mods**
 
-## Requirements
-
-- Windows
-- Subnautica 2
-- Optional for richer metadata: Nexus Mods API key
-- Optional for `.7z` extraction:
-  - 7-Zip / NanaZip / `7z.exe`/`7zz.exe`
-  - or WinRAR (fallback supported)
-
-## File Layout
-
-S2MM expects this structure:
-
-- `S2MM.exe`
-- `_filestructure\\`
-  - `S2MM.cs`
-  - `config.json`
-  - `modlist.json`
-  - `mods\\`
-  - `logs\\`
-  - `assets\\`
-
-## First Run
-
-1. Launch `S2MM.exe`.
-2. Confirm Subnautica path detection in the status/log area.
-3. If needed, use in-app path actions to set/open game folders.
-4. Add mods by dragging archives/folders into the mod list.
-5. Click **Apply Mods**.
-
-## Config Files
-
-- `config.json`
-  - app settings such as Subnautica path, Nexus key, version
-- `modlist.json`
-  - installed mods, notes, categories, pinned states, links
-
-## Safety / Cleanup
-
-- **Purge All** removes all traces of mods installed by S2MM.
-- `logs` folder records actions and errors for troubleshooting.
-
-## Troubleshooting
-
-- `.7z` fails to import:
-  - Ensure 7-Zip/NanaZip is installed OR WinRAR is installed.
-  - Check latest log in `_filestructure\\logs`.
-- Mod not showing in game:
-  - Verify detected game path is correct.
-  - Re-run **Apply Mods**.
-  - Check whether mod is a pak-based mod or folder/UE4SS mod.
+## Folder Layout
+- `_filestructure/mods` - manager-staged mod folders
+- `_filestructure/config.json` - app config
+- `_filestructure/modlist.json` - installed/pinned/category/link data
+- `_filestructure/logs` - runtime logs
 
 ## Notes
+- S2MM supports both pak-style and folder/UE4SS-style mod payloads.
+- If a Nexus download cannot be resolved directly, S2MM will open the mod files page.
 
-- S2MM is an early-development tool and may evolve quickly.
-- Back up saves before major mod changes.
+## Links
+- Nexus: https://www.nexusmods.com/subnautica2/mods/268
+- GitHub: https://github.com/Tj-Ace/S2MM
